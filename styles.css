@@ -1,0 +1,50 @@
+body, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "kuhlman-vf", sans-serif;
+}
+p, ul {
+    font-family: "rl-limo", sans-serif;
+}
+
+.site-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px
+}
+
+.site-header {
+    background-color: rgb(219, 203, 184);
+    padding: 20px;
+}
+
+.main-site {
+    display: flex;
+    gap: 15px;
+    list-style-type: circle;
+    margin-top: 15px;
+}
+
+.sidebar {
+    align-items: flex-start;
+    flex-grow: 5;
+    background-color: rgb(168, 219, 219);
+    padding: 20px;
+    width: 600px;
+}
+
+.artical-site {
+     background-color: rgb(201, 230, 173);
+    padding: 20px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgb(237, 201, 188);
+    padding: 20px;
+    margin-top: 15px;
+}
